@@ -4,6 +4,7 @@ using Calculator = _001_SimpleCalculator.Program.Calculator;
 
 namespace TestProject1
 {
+    //Using the three A's Convention
     [TestClass]
     public sealed class CalculatorTester
     {
@@ -52,6 +53,24 @@ namespace TestProject1
 
             //Assert
             Assert.IsTrue(5 == division);
+        }
+        [TestMethod]
+        public void TestAddWithMultipleAssertions_ExpectedToPass()
+        {
+            //Arrange
+            Calculator calc = new Calculator();
+            int first_number = 15,second_number = 10;
+            int actual_number = 25;
+
+            //Act
+            int addition_result = calc.Add(first_number, second_number);
+
+            //Multiple Assertions
+            Assert.IsTrue(actual_number == addition_result);
+            Assert.AreEqual(actual_number, addition_result);
+
+
+            
         }
     }
 }
