@@ -12,3 +12,6 @@ C:\Users\ivoxm\OneDrive\Ambiente de Trabalho\CSharp\UnitTesting\Mirosft Course\0
 C:\Users\ivoxm\OneDrive\Ambiente de Trabalho\CSharp\UnitTesting\Mirosft Course\001_SimpleCalculator\001_SimpleCalculator\obj\Debug\net8.0\001_SimpleCalculator.pdb
 C:\Users\ivoxm\OneDrive\Ambiente de Trabalho\CSharp\UnitTesting\Mirosft Course\001_SimpleCalculator\001_SimpleCalculator\obj\Debug\net8.0\001_SimpleCalculator.genruntimeconfig.cache
 C:\Users\ivoxm\OneDrive\Ambiente de Trabalho\CSharp\UnitTesting\Mirosft Course\001_SimpleCalculator\001_SimpleCalculator\obj\Debug\net8.0\ref\001_SimpleCalculator.dll
+C:\Users\ivoxm\OneDrive\Ambiente de Trabalho\CSharp\UnitTesting\Mirosft Course\001_SimpleCalculator\001_SimpleCalculator\bin\Debug\net8.0\FluentAssertions.dll
+C:\Users\ivoxm\OneDrive\Ambiente de Trabalho\CSharp\UnitTesting\Mirosft Course\001_SimpleCalculator\001_SimpleCalculator\obj\Debug\net8.0\001_SimpleCalculator.csproj.AssemblyReference.cache
+C:\Users\ivoxm\OneDrive\Ambiente de Trabalho\CSharp\UnitTesting\Mirosft Course\001_SimpleCalculator\001_SimpleCalculator\obj\Debug\net8.0\001_Simp.EB20192A.Up2Date

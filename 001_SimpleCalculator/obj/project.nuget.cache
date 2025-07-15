@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "eOCW7P+T9vY=",
+  "dgSpecHash": "5M2zfDWM/2Q=",
   "success": true,
   "projectFilePath": "C:\\Users\\ivoxm\\OneDrive\\Ambiente de Trabalho\\CSharp\\UnitTesting\\Mirosft Course\\001_SimpleCalculator\\001_SimpleCalculator\\001_SimpleCalculator.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ivoxm\\.nuget\\packages\\fluentassertions\\8.5.0\\fluentassertions.8.5.0.nupkg.sha512"
+  ],
   "logs": []
 }

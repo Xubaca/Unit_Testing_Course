@@ -174,3 +174,4 @@ C:\Users\ivoxm\OneDrive\Ambiente de Trabalho\CSharp\UnitTesting\Mirosft Course\0
 C:\Users\ivoxm\OneDrive\Ambiente de Trabalho\CSharp\UnitTesting\Mirosft Course\001_SimpleCalculator\TestProject1\obj\Debug\net8.0\TestProject1.pdb
 C:\Users\ivoxm\OneDrive\Ambiente de Trabalho\CSharp\UnitTesting\Mirosft Course\001_SimpleCalculator\TestProject1\obj\Debug\net8.0\TestProject1.genruntimeconfig.cache
 C:\Users\ivoxm\OneDrive\Ambiente de Trabalho\CSharp\UnitTesting\Mirosft Course\001_SimpleCalculator\TestProject1\obj\Debug\net8.0\ref\TestProject1.dll
+C:\Users\ivoxm\OneDrive\Ambiente de Trabalho\CSharp\UnitTesting\Mirosft Course\001_SimpleCalculator\TestProject1\bin\Debug\net8.0\FluentAssertions.dll

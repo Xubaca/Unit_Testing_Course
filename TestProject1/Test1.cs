@@ -1,6 +1,7 @@
 ﻿using _001_SimpleCalculator;
 using System.Reflection.PortableExecutable;
 using Calculator = _001_SimpleCalculator.Program.Calculator;
+using FluentAssertions;
 
 namespace TestProject1
 {
@@ -80,11 +81,12 @@ namespace TestProject1
             int? actual = calc.Division(first_number, second_number);
 
             //Assert
-            Assert.IsFalse(actual == 5);
+            Assert.IsTrue(actual == 5);
 
         }
         /// <summary>
-        /// The Correct behaviour here would be to return null when divided by zero, but because said behaviour is not implemented its meant to fail
+        /// The Correct behaviour here would be to return null when divided by zero, but because said behaviour is not implemented its meant to fail,
+        /// ahead in the course i was asked to correct this function
         /// </summary>
         [TestMethod]
         public void MS_Challenge_DividedByZero()
@@ -103,5 +105,28 @@ namespace TestProject1
 
         }
 
+    }
+
+    //fluent assertions are way more readable
+
+    [TestClass]
+    public sealed class FA_CalculatorTester
+    {
+        [TestMethod]
+        public void FA_TestAddition()
+        {
+            //Arrange
+            Calculator calc = new();
+            int first = 10, second = 1, actual = 11;
+            
+
+            //Act
+            int result = calc.Add(a: first, b: second);
+
+            //Assert
+            result.Should().Be(actual);
+
+
+        }
     }
 }

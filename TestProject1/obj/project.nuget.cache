@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Ir/g8MhGoSI=",
+  "dgSpecHash": "DdBgyoaybcg=",
   "success": true,
   "projectFilePath": "C:\\Users\\ivoxm\\OneDrive\\Ambiente de Trabalho\\CSharp\\UnitTesting\\Mirosft Course\\001_SimpleCalculator\\TestProject1\\TestProject1.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ivoxm\\.nuget\\packages\\fluentassertions\\8.5.0\\fluentassertions.8.5.0.nupkg.sha512",
     "C:\\Users\\ivoxm\\.nuget\\packages\\microsoft.applicationinsights\\2.22.0\\microsoft.applicationinsights.2.22.0.nupkg.sha512",
     "C:\\Users\\ivoxm\\.nuget\\packages\\microsoft.codecoverage\\17.12.0\\microsoft.codecoverage.17.12.0.nupkg.sha512",
     "C:\\Users\\ivoxm\\.nuget\\packages\\microsoft.net.test.sdk\\17.12.0\\microsoft.net.test.sdk.17.12.0.nupkg.sha512",
