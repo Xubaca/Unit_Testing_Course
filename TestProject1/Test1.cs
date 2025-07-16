@@ -129,4 +129,29 @@ namespace TestProject1
 
         }
     }
+    
+    //Data Driven Testig, tenho que testar com uma api para ver se os principios podem ser usados "As is" ou se precisam de ser adaptado!
+    [TestClass]
+    public class DDT_CalculatorTester
+    {
+        [DataTestMethod]
+        [DataRow(1, 1, 2)]
+        [DataRow(2, 2, 4)]
+        [DataRow(3, 1, 4)]
+        [DataRow(-1, 4, 3)]
+        [DataRow(-5, 4, -1)]
+        public void DDT_Addition(int a, int b, int expected)
+        {
+            //Arrange
+            Calculator calc = new();
+            int real;
+
+            //Act
+            real = calc.Add(a, b);
+
+            //Assert
+            real.Should().Be(expected);
+
+        }
+    }
 }
